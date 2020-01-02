@@ -1,0 +1,399 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	background: url('../images/Graph.png') no-repeat center 25%,
+				url('../images/Prostokąt 1.png') no-repeat top;
+	color: #ffffff;
+}
+h2 {
+	font-size: 60px;
+}
+p {
+	color: #8492af;
+}	
+header .main-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 30px;
+}
+.header-logo {}
+header a, footer a {
+	text-decoration: none;
+}
+header a {
+	color: #ffffff;
+}
+header ul li {
+	display: inline-block;
+}
+header nav ul li {
+	margin: 0 25px;
+	font-size: 18px;
+}
+header nav ul li a:hover {
+	border-bottom: 3px solid #fce38a;
+	padding-bottom: 10px;
+}
+header nav ul li:last-child {
+	display: inline-block;
+	width: 135px;
+ 	padding: 15px 0;
+    border: 1px solid #1a2d59;
+    border-radius: 45px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+header nav ul li:last-child a:hover {
+	border-bottom: none;
+}
+.login a {
+	color: #5584ff;
+}
+.login:hover {
+	cursor: pointer;
+}
+.grow-with-merkury {
+	margin-top: 145px;
+	text-align: center;
+}
+.grow-with-merkury h2 {
+	margin-bottom: 20px;
+}
+.grow-with-merkury span {
+	font-size: 36px;
+	color: #8492af;
+}
+.grow-with-merkury button, .check-our-pricing button {
+	margin: 80px 0;
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	border: none;
+	background: #5584ff;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	cursor: pointer;
+}
+.grow-with-merkury button:hover {
+	background: #008080;
+}
+.check-our-pricing button:hover {
+	background: #008080;
+}
+.grow-with-merkury div img {
+	box-shadow: 0 0 50px rgba(85, 132, 255, 0.2);
+}
+.cards {
+	margin-top: 130px;
+	display: flex;
+	justify-content: center;
+	color: #000000;
+}
+.cards div hr {
+	margin-top: 40px;
+	width: 155px;
+	border: 1px solid #dadee7;
+	position: absolute;
+	margin-left: -80px;
+}
+.card {
+	margin-left: 25px;
+	margin-right: 25px;
+	position: relative;
+	text-align: center;
+	width: 360px;
+	background-repeat: no-repeat !important;
+	background-position: top center !important;
+}
+.pic-1 {
+	background: url('../images/Inteligentny obiekt wektorowy.png');
+}
+.pic-2 {
+	background: url('../images/Inteligentny obiekt wektorowy2.png');
+}
+.pic-3 {
+	background: url('../images/Inteligentny obiekt wektorowy3.png');
+}
+h3 {
+	font-weight: bold;
+	font-size: 24px;
+}
+.cards h3 {
+	margin-top: 130px;
+	margin-bottom: 30px;
+}
+.cards p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+.card button {
+	margin-top: 50px;
+	width: 250px;
+	height: 50px;
+	border-radius: 50px;
+	border: 1px solid #C0C0C0;
+	background: #ffffff;
+	color: #000000;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+.card button:hover {
+	background: #008080;
+	color: #ffffff;
+}
+.pic-and-text {
+	margin-top: 200px;
+	margin-left: 100px;
+}
+article h2 {
+	margin-bottom: 60px;
+	font-weight: lighter !important;
+	line-height: 0.5;
+}
+#need-browser {
+	display: flex;
+}
+.text-browser {
+	flex: 3;
+}
+.text-browser h2 {
+	font-weight: 100;
+}
+.text-browser p {
+	margin-bottom: 40px;
+}
+.text-browser div {
+	background: url('../images/checked6.png') no-repeat;
+	padding-left: 40px;
+	height: 50px;
+	padding-top: 5px;
+	font-size: 22px;
+}
+.text-browser div p {
+	color: #5584ff;
+}
+.pic-monitor {
+	flex: 4;
+}
+.pic-monitor img {
+	max-width: 100%;
+}
+#drag-and-drop {
+	background: url('../images/Graph.png') no-repeat #0e1a35 center center;
+	min-height: 100%;
+	margin-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 160px;
+} 
+#drag-and-drop > div {
+	display: flex;
+	font-size: 30px;
+}
+#drag-and-drop div p {
+	color: #ffffff;
+}
+#drag-and-drop div p:first-child {
+	margin-right: 175px;
+}
+#drag-and-drop div img {
+	margin-right: 45px;
+}
+#drag-and-drop div p span {
+	color: #8492af;
+}
+#drag-and-drop div p span:last-child {
+	font-weight: 500;
+}
+#drag-and-drop section {
+	display: flex;
+	margin-top: 30px;
+}
+#drag-and-drop section h2 {
+	color: #ffffff;
+	font-weight: thin;
+}
+#drag-and-drop section p {
+	margin-bottom: 40px;
+	color: #8492af;
+}
+.arows {
+	display: flex;
+}
+.arows img {
+	margin-right: 20px !important;
+}
+.text-powerfull-psd {
+	text-align: center;
+	margin-top: 105px;
+}
+.text-powerfull-psd h2 {
+	padding-bottom: 60px;
+}
+.text-powerfull-psd p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+.powerfull-template {
+	margin-top: 90px;
+}
+.powerfull-template {
+	background-position: 50% 0 !important;
+	min-height: 681px;
+	background: url('../images/Screen Mockup.png') no-repeat;
+}
+.powerfull-template section {
+	padding-top: 100px;
+	margin-left: 100px;
+}
+.powerfull-template section div {
+	width: 230px;
+	padding-top: 25px;
+	line-height: 1.5;
+}
+.powerfull-template section:nth-of-type(2) {
+	padding-left: 620px;
+	padding-top: 140px;
+}
+.line-and-point {
+	padding-bottom: 15px;
+	position: relative;
+  	max-width: 568px;
+  	border-bottom: 2px solid #5584ff;
+}
+.powerfull-template section:last-child h3 {
+	text-align: right;
+}
+.powerfull-template section:last-child div {
+	padding-left: 300px;
+}
+.powerfull-template section:last-child div p {
+	text-align: right;
+}
+.powerfull-template section:nth-of-type(1) .line-and-point:after {
+	position: absolute;
+	content: '';
+	right: 0;
+	bottom: -10px;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	box-shadow: 0 0 0 5px #99b5ff;
+	background-color: #5584ff;
+}
+.powerfull-template section:nth-of-type(2) .line-and-point:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: -10px;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	box-shadow: 0 0 0 5px #99b5ff;
+	background-color: #5584ff;
+}
+article .pricing {
+	margin-top: 110px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+.check-our-pricing > p {
+	text-align: center;
+	margin: 0 200px;
+}
+.check-our-pricing .button-and-lines {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.check-our-pricing button {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.button-and-lines .hr hr {
+	width: 155px;
+	border: 1px solid #dadee7;
+}
+.plans {
+	display: flex;
+	justify-content: center;
+	color: #000000;
+	margin-bottom: 100px;
+}
+.plans h3 {
+	margin-top: 50px;
+	margin-bottom: 37px;
+}
+.plan {
+	box-shadow: 0 0 25px #d3d3d3;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	width: 360px;
+	padding-bottom: 40px;
+}
+.dollar-symbol {
+	font-size: 40px;
+	font-weight: bold;
+	color: #0e1a35;
+}
+.price {
+	font-size: 72px;
+	font-weight: bold;
+	color: #0e1a35;
+	margin-left: 3px;
+}
+.month {
+	font-size: 24px;
+	color: #8492af;
+}
+.plan div {
+	padding-bottom: 35px;
+}
+.plan:nth-of-type(1) ul li:nth-of-type(1n+3) {
+	background: url('../images/Prostokąt 18 kopia 3.png') no-repeat !important;
+	background-position: 40px center, calc(100% - 10px) center !important;
+}
+.plan:nth-of-type(2) ul li:nth-of-type(1n+4) {
+	background: url('../images/Prostokąt 18 kopia 3.png') no-repeat !important;
+	background-position: 40px center, calc(100% - 10px) center !important;
+}
+.plan ul li {
+	font-size: 18px;
+	line-height: 2;
+	color: #8492af;
+	background: url('../images/checked6 kopia 2.png') no-repeat;
+	background-position: 40px center, calc(100% - 10px) center;
+}
+footer {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #0e1a35;
+	color: #8492af;
+	font-size: 18px;
+}
+footer ul li {
+	display: inline-block;
+}
+
+.lists {
+	display: flex;
+}
+.lists ul:first-child li {
+	margin-right: 40px;
+}
+.lists ul:last-child li {
+	margin-right: 20px;
+}
+footer a {
+	color: #8492af;
+}
